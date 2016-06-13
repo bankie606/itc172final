@@ -1,0 +1,123 @@
+body{
+    width: 63%;
+    margin: auto;
+    margin-top:20px;
+    padding:24px;
+    font-size: 18px;
+    -moz-transform: scale(3., 3.); /* Moz-browsers */
+    zoom: 3.; /* Other non-webkit browsers */
+    zoom: 300%; /* Webkit browsers */
+
+}
+
+h1,h2,h3 {
+text-shadow: 1px 1px 1px white, 2px 2px 2px black, 3px 3px 3px white, 4px 4px 4px black;
+float:none;
+margin: 0 auto;
+text-align: center;
+}
+
+ul{
+float:none;
+margin: auto;
+}
+
+li{
+text-shadow: 1px 1px 1px #000069, 2px 2px 2px #ffffff, 2px 2px 3px #000000, 3px 3px 4px #808;
+}
+table {
+ margin: 0 auto;
+background: #f0f;
+color: #0f0;
+text-shadow: 1px 1px 1px #000069, 2px 2px 2px #ffffff, 2px 2px 3px #000000, 3px 3px 4px #808;
+font-size: 20px;
+}
+
+select{
+display: block;
+margin: 0 auto;
+text-align: center;
+}
+
+
+td{
+padding: 8px;
+}
+
+th{
+padding: 12px;
+}
+
+.mainbody{
+float:none;
+margin:auto;
+    padding:20px;
+ color: #0000D8;
+  background: linear-gradient(to bottom,#808 42%, #C0C0C0 58%);
+  background-size: auto 2px;
+  outline: 10px dashed #0000D8;
+  box-shadow: 0px 1px 10px 10px #1B676B;
+  animation: 5s animateBorderThree ease infinite;
+  z-index: -3;   
+}
+
+.visualcenter{
+display: block;
+margin: 0 auto;
+text-align: center;
+border: 4px double #0f0;
+}
+
+.footer{
+    width:100%;
+border: 4px solid #0000D8;
+z-index: 100;
+}
+
+.wireframe{
+width: 90%;
+border: 3px solid #000;
+}
+.animateme {
+  color: #D80000;
+  background: linear-gradient(to bottom,#808 42%, #C0C0C0 58%);
+  background-size: auto 2px;
+  outline: 100px dashed #0000D8;
+  box-shadow: 10 0 0 10px #C0C0C0;
+  animation: 8s animateBorderThree ease infinite;
+  z-index: -3;
+}
+
+img{
+z-index: 100;
+}
+
+
+.bottomline
+{
+width:100%;
+}
+
+
+
+@keyframes animateBorderThree {
+  to {
+    outline-color: #F020D8;
+    box-shadow: 0 0 0 100px #D80098;
+    z-index: -3;
+  }
+}
+ /* Responsive TABLET LAYOUT  */
+           @media all and (max-width:780px) {
+            body {
+                    width:60%;
+            }
+           
+    }
+ /* Responsive PHONE LAYOUT  */
+           @media all and (max-width:480px) {
+            body {
+                    width:80%;
+            }
+           
+    }
